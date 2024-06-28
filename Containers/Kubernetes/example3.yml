@@ -1,6 +1,6 @@
 apiVersion : apps/v1
 kind : Deployment
-meradata : 
+metadata : 
   name : tomcat-deploy
   labels:
     app : tomcat-app
