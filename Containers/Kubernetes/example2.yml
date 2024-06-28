@@ -16,6 +16,6 @@ spec :
     spec : 
       containers : 
         - name : tomcat-container
-          image : vishymails/tomcatimage:2.0
+          image : vishymails/tomcatimage:1.0
           ports : 
             - containerPort : 8080
