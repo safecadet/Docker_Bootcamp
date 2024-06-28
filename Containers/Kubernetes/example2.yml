@@ -13,9 +13,9 @@ spec :
       name : tomcat-pod
       labels : 
         app : tomcat-app
-      spec : 
-        containers : 
-          - name : tomcat-container
-            image : vishymails/tomcatimage:2.0
-            ports : 
-              - containerPort : 8080
+    spec : 
+      containers : 
+        - name : tomcat-container
+          image : vishymails/tomcatimage:2.0
+          ports : 
+            - containerPort : 8080
